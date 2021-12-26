@@ -29,7 +29,7 @@ async def makectf(ctx, ctf_name: str, *channels):
     await guild.create_voice_channel(f"{ctf_name}-vc", category = Category, sync_permissions=True)
 
     # moves category to top (below generals)
-    await Category.edit(position=1)
+    await Category.edit(position=2)
 
     if DEBUG:
         # log
