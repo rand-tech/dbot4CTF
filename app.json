@@ -1,0 +1,6 @@
+{
+    "name": "bot4discord",
+    "description": "Makes a Channel/Category in discord",
+    "repository": "https://github.com/rand-tech/dbot4CTF",
+    "keywords": ["python", "discord", "bot"]
+  }
